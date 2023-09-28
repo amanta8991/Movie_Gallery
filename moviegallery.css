@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-color:azure;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header{
+    background-color: #2d2c2c;
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 70px;
+}
+
+.register{
+    background-color: #ffcf72;
+    height: 36px;
+    width: 100px;
+    border-radius: 8px;
+    border: 0px;
+    position: absolute;
+    left: 930px;
+    top: 17.5px;
+}
+
+.register:hover{
+    background-color: #feb92d;
+}
+
+.search {
+    width: 25%;
+    position: relative;
+    display: flex;
+    left: 1040px;
+    top: -60px;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #ffcf72;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #ffcf72;
+    background: #ffcf72;
+    text-align: center;
+    color: #000;
+    border-radius: 0 5px 5px 0;
+    font-size: 20px;
+  }
+
+#logo{
+    font-family: 'Pacifico', cursive;
+    margin-left: 10px;
+    color:#feb92d;
+}
+
+.newreal{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+.show{
+    position: absolute;
+    background-color: transparent;
+    color: #ffcf72;
+    top: -15px;
+    left: 1300px;
+}
+
+.movie{
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    border: 2px #ffcf72 solid;
+}
+
+.col{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.cl{
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #000;
+
+}
+
+.image{
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    opacity: 30%;
+}
+
+.new,.you{
+    position: relative;
+    height: 400px;
+}
+
+.genre{
+    position: relative;
+    height: 80px;
+}
+
+.col1{
+    left:30px;
+}
+
+.col2{
+    left: 375px;
+}
+
+.col3{
+    left: 725px;
+}
+
+.col4{
+    left: 1070px;
+}
+
+.title{
+    text-align: center;
+}
+
+.gen{
+    text-align: center;
+    margin-top: -55px;
+    color: white;
+}
+
+.checked{
+ color: #feb92d;
+}
+
+.span{
+    text-align: center;
+}
+
